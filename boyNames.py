@@ -1,3 +1,7 @@
+# <.SYNOPSIS - This program generates a random name from a self-provided txt file of entries. 
+# To run this successfully, you need to provide your own .txt file containing names, without commas,
+# and each on their own line. 
+
 import random
 a_file = open("boyNames.txt", "r")
 boyNames = [(line.strip()).split() for line in a_file]
